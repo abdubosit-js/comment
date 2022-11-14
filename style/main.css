@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  font-family: sans-serif;
+  height: 100vh;
+  background-color: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .comment-container {
+  width: 100%;
+  max-width: 350px;
+  height: 600px;
+  margin: auto;
+  background-color: #FFFFFF;
+  border-radius: 15.171px;
+  position: relative;
+}
+
+.container .comment-container .title-cnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 10px 6px 10px;
+  border-bottom: 1.26425px solid #eeeeee;
+}
+
+.container .comment-container .title-cnt h1 {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.container .comment-container .title-cnt img {
+  width: 27px;
+  cursor: pointer;
+}
+
+.container .comment-container .input-wrapper {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  padding: 10px;
+}
+
+.container .comment-container .input-wrapper .input-cnt {
+  border: 1px solid #B4BBC680;
+  border-radius: 8.84974px;
+}
+
+.container .comment-container .input-wrapper .input-cnt form input {
+  width: 100%;
+  height: 40px;
+  padding: 9px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+
+.container .comment-container .input-wrapper .input-cnt form input::-webkit-input-placeholder {
+  color: #9E9EA8;
+}
+
+.container .comment-container .input-wrapper .input-cnt form input:-ms-input-placeholder {
+  color: #9E9EA8;
+}
+
+.container .comment-container .input-wrapper .input-cnt form input::-ms-input-placeholder {
+  color: #9E9EA8;
+}
+
+.container .comment-container .input-wrapper .input-cnt form input::placeholder {
+  color: #9E9EA8;
+}
+
+.container .comment-container .input-wrapper .input-cnt form input[type="text"] {
+  font-size: 20px;
+}
+
+.container .comment-container .input-wrapper .input-cnt .flex-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px 9px;
+}
+
+.container .comment-container .input-wrapper .input-cnt .flex-item .left-cnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.container .comment-container .input-wrapper .input-cnt .flex-item .right-cnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.container .comment-container .input-wrapper .input-cnt .flex-item .right-cnt input {
+  width: 60.44px;
+  height: 30.17px;
+  border: none;
+  color: #FFFFFF;
+  background: #BDBDBD;
+  border-radius: 5.05699px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
