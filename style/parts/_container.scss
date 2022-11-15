@@ -12,6 +12,44 @@
         background-color: #FFFFFF;
         border-radius: 15.171px;
         position: relative;
+        .comment-content_wrapper {
+            padding: 10px;
+            .comment-content {
+                .profile-cnt {
+                    display: flex;
+                    align-items: center;
+                    gap: 7px;
+                    img {
+                        width: 35px;
+                    }
+                }
+                .text-cnt {
+                    margin-top: 7px;
+                }
+                .reaksiya-cnt {
+                    margin-top: 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    img {
+                        width: 20px;
+                        cursor: pointer;
+                    }
+                    .right {
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+                        p { 
+                            cursor: pointer;
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+                            color: #8991A0;
+                        }
+                    }
+                }
+            }   
+        }
         .title-cnt {
             display: flex;
             align-items: center;

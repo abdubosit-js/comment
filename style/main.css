@@ -27,6 +27,68 @@
   position: relative;
 }
 
+.container .comment-container .comment-content_wrapper {
+  padding: 10px;
+}
+
+.container .comment-container .comment-content_wrapper .comment-content .profile-cnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 7px;
+}
+
+.container .comment-container .comment-content_wrapper .comment-content .profile-cnt img {
+  width: 35px;
+}
+
+.container .comment-container .comment-content_wrapper .comment-content .text-cnt {
+  margin-top: 7px;
+}
+
+.container .comment-container .comment-content_wrapper .comment-content .reaksiya-cnt {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .comment-container .comment-content_wrapper .comment-content .reaksiya-cnt img {
+  width: 20px;
+  cursor: pointer;
+}
+
+.container .comment-container .comment-content_wrapper .comment-content .reaksiya-cnt .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.container .comment-container .comment-content_wrapper .comment-content .reaksiya-cnt .right p {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  color: #8991A0;
+}
+
 .container .comment-container .title-cnt {
   display: -webkit-box;
   display: -ms-flexbox;
